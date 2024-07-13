@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+header{
+    background-color: rgba(229, 84, 115, 0.1);
+    padding-top: 50px; 
+}
+.header-content{
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.header-img{    
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.header-img img{
+    width: 635px;
+    height: 800px;
+}
+.header-text{
+    width: 700px;
+}
+.header-text h1{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #272727;
+}
+.header-text p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #272727;
+    opacity: 60%;
+    margin: 32px 0;
+}
+.btn{
+    background-color: #E55473;
+    border-radius: 8px;
+    border:1px solid #E55473;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 1.1rem 2.6rem;
+    transition: all 0.7s ease-in-out;
+}
+.btn:hover ,.btn:focus, .btn:active{
+    background-color: transparent;
+    color: #E55473;
+}
