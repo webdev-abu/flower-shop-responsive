@@ -98,9 +98,6 @@ main{
     grid-template-columns: repeat(3, 1fr);
     gap: 22px;
 }
-.section-featured-box{
-    
-}
 .section-featured-item{
     border-radius: 50% 50% 0 0;
     display: flex;
