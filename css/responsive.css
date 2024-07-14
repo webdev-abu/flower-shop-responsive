@@ -116,6 +116,10 @@ Extra large devices (large desktops, 1200px and up)
     form input[type=email]{
         width: 100%;
     }
+    /* Footer style */
+    .footer-content{
+        width:80%;
+    }
 
  }
 
@@ -218,6 +222,10 @@ Extra large devices (large desktops, 1200px and up)
     form input[type=email]{
         width: 100%;
     }
+    /* Footer style */
+    .footer-content{
+        width:70%;
+    }
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -299,6 +307,10 @@ Extra large devices (large desktops, 1200px and up)
     form input[type=email]{
         width: 90%;
     }
+    /* Footer style */
+    .footer-content{
+        width:60%;
+    }
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -365,6 +377,10 @@ Extra large devices (large desktops, 1200px and up)
     form input[type=email]{
         width: 90%;
     }
+    /* Footer style */
+    .footer-content{
+        width:50%;
+    }
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -405,5 +421,9 @@ Extra large devices (large desktops, 1200px and up)
     }
     form input[type=email]{
         width: 90%;
+    }
+    /* Footer style */
+    .footer-content{
+        width:40%;
     }
  }
