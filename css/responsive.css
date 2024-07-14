@@ -95,6 +95,13 @@ Extra large devices (large desktops, 1200px and up)
         width: 100%;
         padding: 10px;
     }
+    /* instagram style */
+    .instagram{
+        margin: 58px 0;
+    }
+    .instagram-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
 
  }
 
@@ -176,6 +183,13 @@ Extra large devices (large desktops, 1200px and up)
         width: 100%;
         padding: 10px;
     }
+    /* instagram style */
+    .instagram{
+        margin: 58px 0;
+    }
+    .instagram-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -239,6 +253,13 @@ Extra large devices (large desktops, 1200px and up)
      .content-area .offer-title {
         font-size: 1.5rem;
     }
+    /* instagram style */
+    .instagram{
+        margin: 58px 0;
+    }
+    .instagram-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -289,6 +310,11 @@ Extra large devices (large desktops, 1200px and up)
      .content-area .offer-title {
         font-size: 1.5rem;
     }
+    /* instagram style */
+    
+    .instagram-content{
+        grid-template-columns: repeat(3, 1fr);
+    }
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -315,8 +341,9 @@ Extra large devices (large desktops, 1200px and up)
     .offer-content{
         grid-template-columns: repeat(2, 1fr);
     }
-    /* .content-area{
-        width: 80%;
-        margin: 0 auto;
-    } */
+    /* instagram style */
+    
+    .instagram-content{
+        grid-template-columns: repeat(4, 1fr);
+    }
  }
