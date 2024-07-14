@@ -73,6 +73,28 @@ Extra large devices (large desktops, 1200px and up)
     .helpline-item{
         padding: 50px 0;
     }
+    /* offer style */
+    .offer{
+        padding: 50px 10px;
+    }
+    .offer-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .offer-content img{
+        grid-area: picture;
+        margin: 0 auto 50px;
+    }
+    .content-area{
+        grid-area: content-area;
+    }
+    .offer-content{
+        grid-template-areas: "picture"
+        "content-area";
+    }
+    .content-area{
+        width: 100%;
+        padding: 10px;
+    }
 
  }
 
@@ -132,6 +154,28 @@ Extra large devices (large desktops, 1200px and up)
     .helpline-item{
         padding: 50px 0;
     }
+    /* offer style */
+    .offer{
+        padding: 50px 10px;
+    }
+    .offer-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .offer-content img{
+        grid-area: picture;
+        margin: 0 auto 50px;
+    }
+    .content-area{
+        grid-area: content-area;
+    }
+    .offer-content{
+        grid-template-areas: "picture"
+        "content-area";
+    }
+    .content-area{
+        width: 100%;
+        padding: 10px;
+    }
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -179,6 +223,22 @@ Extra large devices (large desktops, 1200px and up)
     .helpline-item{
         padding: 50px 0;
     }
+    /* offer style */
+    .offer{
+        padding: 50px 10px;
+    }
+    .offer-content{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
+    .content-area{
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+     .content-area .offer-title {
+        font-size: 1.5rem;
+    }
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -213,6 +273,22 @@ Extra large devices (large desktops, 1200px and up)
     .flower-title {
         margin-bottom: 24px;
     }
+    /* offer style */
+    .offer{
+        padding: 50px 10px;
+    }
+    .offer-content{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .content-area{
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+     .content-area .offer-title {
+        font-size: 1.5rem;
+    }
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -235,4 +311,12 @@ Extra large devices (large desktops, 1200px and up)
     .flower-title {
         margin-bottom: 24px;
     }
+    /* offer style */
+    .offer-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* .content-area{
+        width: 80%;
+        margin: 0 auto;
+    } */
  }
