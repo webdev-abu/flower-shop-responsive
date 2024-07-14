@@ -102,6 +102,20 @@ Extra large devices (large desktops, 1200px and up)
     .instagram-content{
         grid-template-columns: repeat(1, 1fr);
     }
+    /* contact style */
+    .contact{
+        background-image: url(../images/Rectangle\ 9.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        padding: 60px 10px;
+    }
+    form{
+        flex-direction: column;
+    }
+    form input[type=email]{
+        width: 100%;
+    }
 
  }
 
@@ -190,6 +204,20 @@ Extra large devices (large desktops, 1200px and up)
     .instagram-content{
         grid-template-columns: repeat(1, 1fr);
     }
+    /* contact style */
+    .contact{
+        background-image: url(../images/Rectangle\ 9.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        padding: 60px 10px;
+    }
+    form{
+        flex-direction: column;
+    }
+    form input[type=email]{
+        width: 100%;
+    }
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -260,6 +288,17 @@ Extra large devices (large desktops, 1200px and up)
     .instagram-content{
         grid-template-columns: repeat(2, 1fr);
     }
+    /* contact style */
+    .contact{
+        background-image: url(../images/Rectangle\ 9.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        padding: 60px 10px;
+    }
+    form input[type=email]{
+        width: 90%;
+    }
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -315,6 +354,17 @@ Extra large devices (large desktops, 1200px and up)
     .instagram-content{
         grid-template-columns: repeat(3, 1fr);
     }
+    /* contact style */
+    .contact{
+        background-image: url(../images/Rectangle\ 9.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        padding: 60px 100px;
+    }
+    form input[type=email]{
+        width: 90%;
+    }
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -345,5 +395,15 @@ Extra large devices (large desktops, 1200px and up)
     
     .instagram-content{
         grid-template-columns: repeat(4, 1fr);
+    }
+    /* contact style */
+    .contact{
+        background-image: url(../images/Rectangle\ 9.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    form input[type=email]{
+        width: 90%;
     }
  }

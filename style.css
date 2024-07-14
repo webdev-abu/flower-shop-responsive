@@ -209,3 +209,31 @@ main{
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
 }
+/* contact style */
+.contact{
+    background-image: url(images/Rectangle\ 9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 122px 280px;
+}
+form{
+    display: flex;
+    gap: 16px;
+}
+form input[type=email]{
+    width: 75%;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+form input[type=email]:focus{
+    outline:1px solid #E55473;
+}
+::placeholder{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #272727;
+    opacity: 60%;
+}
